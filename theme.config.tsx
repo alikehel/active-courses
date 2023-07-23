@@ -5,7 +5,7 @@ import React from 'react';
 const config: DocsThemeConfig = {
 	logo: (
 		<div style={{ alignItems: 'center', display: 'flex', gap: '8px' }}>
-			<img width="30" height="30" src="https://cdn.discordapp.com/icons/950993900720492574/d56dcdcc7d1baf26a39ff6f8e0900478.webp?size=96" alt="" />
+			<img width="30" height="30" src="/logo.png" alt="Active Courses Logo" />
 			<span style={{ fontWeight: 'bold', fontSize: 18 }}>Active Courses</span>
 		</div>
 	),
@@ -22,7 +22,7 @@ const config: DocsThemeConfig = {
 				<meta property="og:description" content={frontMatter.description || `Active Courses is a discord server for Studying CSE/CS Subjects, The server's purpose is to imitate college-cult-like by studying a subject from same source at same time.`} />
 				{/* <meta httpEquiv="Content-Language" content="en" /> */}
 				{/* <meta name="description" content={frontMatter.description} /> */}
-				<link rel="icon" type="image/webp" href="/logo.webp"/>
+				<link rel="icon" type="image/png" href="/logo.png"></link>
 			</>
 		);
 	},
