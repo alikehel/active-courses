@@ -1,15 +1,23 @@
 {
-    "index": "مقدمة",
-    "another": "Another Page",
-    "advanced": "Advanced (A Folder)",
-    "about": {
-        "title": "About",
-        "type": "page"
+    "*": {
+        "theme": {
+            "breadcrumb": false,
+            "footer": false
+        }
     },
-    "contact": {
-        "title": "Contact ↗",
-        "type": "page",
-        "href": "https://twitter.com/shuding_",
-        "newWindow": true
+    "index": {
+        "title": "مقدمة"
+    },
+    "faq": {
+        "title": "أسئلة شائعة"
+    },
+    "faq2": {
+        "title": "أسئلة شائعة 2"
+    },
+    "rules": {
+        "title": "القوانين"
+    },
+    "htj": {
+        "title": "ازاي تخش السيرفر"
     }
 }

@@ -1,15 +1,23 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "*": {
+    "theme": {
+      "breadcrumb": false,
+      "footer": false
+    }
   },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+  "index": {
+    "title": "Introduction"
+  },
+  "faq": {
+    "title": "FAQ"
+  },
+  "faq2": {
+    "title": "FAQ 2"
+  },
+  "rules": {
+    "title": "Rules"
+  },
+  "htj": {
+    "title": "How to join"
   }
 }
