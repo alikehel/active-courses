@@ -38,10 +38,13 @@ const config: DocsThemeConfig = {
 	},
 	i18n: [
 		{ locale: 'en', text: 'English' },
-		{ locale: 'ar', text: 'العربية', direction: 'rtl' },
+		{ locale: 'ar', text: 'العربية' },
 	],
 	search: {
 		placeholder: 'Search',
+	},
+	sidebar: {
+		defaultMenuCollapseLevel: 0,
 	},
 };
 

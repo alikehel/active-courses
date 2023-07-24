@@ -1,0 +1,18 @@
+{
+    "general": {
+        "title": "General"
+    },
+    "book-grokking-algos": {
+        "title": "Book: Grokking Algorithms"
+    },
+    "course-princeton": {
+        "title": "Course: Princeton Algorithms"
+    },
+    "review1": {
+        "title": "Review 1",
+        "display": "hidden",
+        "theme": {
+            "typesetting": "article"
+        }
+    }
+}
