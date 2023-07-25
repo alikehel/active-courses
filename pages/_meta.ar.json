@@ -1,7 +1,7 @@
 {
     "*": {
         "theme": {
-            "breadcrumb": true,
+            "breadcrumb": false,
             "footer": false
         }
     },
