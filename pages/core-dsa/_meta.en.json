@@ -8,11 +8,8 @@
     "course-princeton": {
         "title": "Course: Princeton Algorithms"
     },
-    "course-princeton-review1": {
-        "title": "Review 1",
-        "display": "hidden",
-        "theme": {
-            "typesetting": "article"
-        }
+    "course-princeton-review-omarshawky": {
+        "title": "Review By Omar Shawky",
+        "display": "hidden"
     }
 }
