@@ -1,3 +1,4 @@
+import Giscus from '@giscus/react';
 import { useRouter } from 'next/router';
 import { DocsThemeConfig, useConfig } from 'nextra-theme-docs';
 import React from 'react';
@@ -45,6 +46,16 @@ const config: DocsThemeConfig = {
 	},
 	sidebar: {
 		defaultMenuCollapseLevel: 1,
+	},
+	main: (props) => {
+		const { asPath, defaultLocale, locale } = useRouter();
+		return (
+			<>
+				{props.children}
+				<Giscus id="comments" repo="alisaber272/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="preferred_color_scheme" lang={locale} loading="eager" />
+				{/* term="Welcome to @giscus/react component!" reactionsEnabled="1" emitMetadata="0" */}
+			</>
+		);
 	},
 };
 
