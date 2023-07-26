@@ -19,6 +19,7 @@
   "homepage": "https://github.com/alisaber272/active-courses#readme",
   "dependencies": {
     "@giscus/react": "^2.3.0",
+    "@vercel/analytics": "^1.0.1",
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
