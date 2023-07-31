@@ -1,0 +1,26 @@
+{
+    "intro": {
+        "title": "Intro"
+    },
+    "core-math": {
+        "title": "Math"
+    },
+    "core-programming": {
+        "title": "Programming"
+    },
+    "core-oo": {
+        "title": "Object Oriented"
+    },
+    "core-dsa": {
+        "title": "Data Structures & Algorithms"
+    },
+    "core-db": {
+        "title": "Databases"
+    },
+    "core-os": {
+        "title": "Operating Systems"
+    },
+    "core-networks": {
+        "title": "Networks"
+    }
+}

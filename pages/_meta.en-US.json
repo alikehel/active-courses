@@ -1,0 +1,38 @@
+{
+  "*": {
+    "theme": {
+      "breadcrumb": false,
+      "footer": false
+    }
+  },
+  "index": {
+    "title": "Active Courses",
+    "display": "hidden",
+    "type": "page",
+    "sidebar": false,
+    "toc": false,
+    "pagination": false,
+    "theme": {
+      "footer": true
+    }
+  },
+  "intro": {
+    "title": "Intro",
+    "type": "page"
+  },
+  "core": {
+    "title": "Core",
+    "type": "page"
+  },
+  "subfields": {
+    "title": "Subfields",
+    "type": "page"
+  },
+  "blog": {
+    "title": "Blog",
+    "type": "page",
+    "theme": {
+      "footer": true
+    }
+  }
+}

@@ -38,6 +38,11 @@ body {
     /* --tw-shadow: 0 -12px 16px #000; */
 }
 
+:is(html[class~="dark"] .dark\:nx-bg-neutral-900) {
+    --tw-bg-opacity: 1;
+    background-color: rgba(13, 13, 13, var(--tw-bg-opacity));
+}
+
 /* .nx-max-w-\[90rem\] {
     max-width: 90rem;
 } */

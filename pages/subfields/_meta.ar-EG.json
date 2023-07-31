@@ -1,0 +1,14 @@
+{
+    "intro": {
+        "title": "Intro"
+    },
+    "subfield-ai": {
+        "title": "Artificial Intelligence"
+    },
+    "subfield-web": {
+        "title": "Web Development"
+    },
+    "subfield-devops": {
+        "title": "DevOps"
+    }
+}

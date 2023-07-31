@@ -38,8 +38,8 @@ const config: DocsThemeConfig = {
 		text: 'Active Courses © 2023',
 	},
 	i18n: [
-		{ locale: 'en', text: 'English' },
-		{ locale: 'ar', text: 'العربية' },
+		{ locale: 'en-US', text: 'English' },
+		{ locale: 'ar-EG', text: 'العربية المصرية' },
 	],
 	search: {
 		placeholder: 'Search',
@@ -59,14 +59,18 @@ const config: DocsThemeConfig = {
 		// 	);
 		// }
 
-		return (
-			<>
-				{/* {frontMatter.type === 'blog' ? (<p>{frontMatter.title}</p>) : null} */}
-				{props.children}
-				<Giscus id="comments" repo="alisaber272/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="preferred_color_scheme" lang={locale} loading="eager" />
-				{/* term="Welcome to @giscus/react component!" reactionsEnabled="1" emitMetadata="0" */}
-			</>
-		);
+		if (asPath === '/' || asPath === '/blog') {
+			return <>{props.children}</>;
+		} else {
+			return (
+				<>
+					{/* {frontMatter.type === 'blog' ? (<p>{frontMatter.title}</p>) : null} */}
+					{props.children}
+					<Giscus id="comments" repo="alisaber272/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="preferred_color_scheme" lang={locale} loading="eager" />
+					{/* term="Welcome to @giscus/react component!" reactionsEnabled="1" emitMetadata="0" */}
+				</>
+			);
+		}
 	},
 };
 
