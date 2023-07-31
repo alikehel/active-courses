@@ -9,9 +9,6 @@
     "title": "Active Courses",
     "display": "hidden",
     "type": "page",
-    "sidebar": false,
-    "toc": false,
-    "pagination": false,
     "theme": {
       "footer": true
     }

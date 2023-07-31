@@ -2,6 +2,7 @@ import Giscus from '@giscus/react';
 import { useRouter } from 'next/router';
 import { DocsThemeConfig, useConfig } from 'nextra-theme-docs';
 import React from 'react';
+import Authors, { Author } from './components/authors';
 
 const config: DocsThemeConfig = {
 	logo: (
@@ -51,22 +52,27 @@ const config: DocsThemeConfig = {
 		const { asPath, defaultLocale, locale } = useRouter();
 		const { frontMatter } = useConfig();
 
-		// if (frontMatter.type === 'blog') {
-		// 	return (
-		// 		<>
-		// 			<p>{frontMatter.title}</p>
-		// 		</>
-		// 	);
-		// }
-
 		if (asPath === '/' || asPath === '/blog') {
 			return <>{props.children}</>;
+		} else if (asPath.includes('/blog/')) {
+			return (
+				<>
+					<h1 className="nx-mt-2 nx-text-4xl nx-font-bold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100">{frontMatter.title}</h1>
+					<Authors date={frontMatter.date}>
+						{frontMatter.authors?.map((author: JSX.IntrinsicAttributes & { name: any; link: any }) => (
+							<Author name={author.name} link={author.link} />
+						))}
+					</Authors>
+					{props.children}
+					<Giscus id="comments" repo="alisaber272/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="transparent_dark" lang={locale.slice(0, 2)} loading="lazy" />
+				</>
+			);
 		} else {
 			return (
 				<>
 					{/* {frontMatter.type === 'blog' ? (<p>{frontMatter.title}</p>) : null} */}
 					{props.children}
-					<Giscus id="comments" repo="alisaber272/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="preferred_color_scheme" lang={locale} loading="eager" />
+					<Giscus id="comments" repo="alisaber272/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="transparent_dark" lang={locale.slice(0, 2)} loading="lazy" />
 					{/* term="Welcome to @giscus/react component!" reactionsEnabled="1" emitMetadata="0" */}
 				</>
 			);
