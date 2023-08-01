@@ -1,9 +1,0 @@
-{
-    "*": {
-        "theme": {
-            "toc": false,
-            "sidebar": false,
-            "breadcrumb": true
-        }
-    }
-}
