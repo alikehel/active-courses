@@ -32,5 +32,19 @@
 		"theme": {
 			"footer": true
 		}
+	},
+	"404": {
+		"type": "page",
+		"theme": {
+			"timestamp": false,
+			"typesetting": "article"
+		}
+	},
+	"500": {
+		"type": "page",
+		"theme": {
+			"timestamp": false,
+			"typesetting": "article"
+		}
 	}
 }
