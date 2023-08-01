@@ -1,26 +1,33 @@
 {
-    "intro": {
-        "title": "Intro"
-    },
-    "core-math": {
-        "title": "Math"
-    },
-    "core-programming": {
-        "title": "Programming"
-    },
-    "core-oo": {
-        "title": "Object Oriented"
-    },
-    "core-dsa": {
-        "title": "Data Structures & Algorithms"
-    },
-    "core-db": {
-        "title": "Databases"
-    },
-    "core-os": {
-        "title": "Operating Systems"
-    },
-    "core-networks": {
-        "title": "Networks"
-    }
+	"intro": {
+		"title": "Core - Intro"
+	},
+	"---Core": {
+		"type": "separator",
+		"title": "Core"
+	},
+	"math": {
+		"title": "Math"
+	},
+	"programming": {
+		"title": "Programming"
+	},
+	"oo": {
+		"title": "Object Oriented"
+	},
+	"dsa": {
+		"title": "Data Structures & Algorithms"
+	},
+	"design-patterns": {
+		"title": "Design Patterns"
+	},
+	"db": {
+		"title": "Databases"
+	},
+	"os": {
+		"title": "Operating Systems"
+	},
+	"networks": {
+		"title": "Networks"
+	}
 }

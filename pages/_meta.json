@@ -15,7 +15,8 @@
 	},
 	"intro": {
 		"title": "Intro",
-		"type": "page"
+		"type": "page",
+		"href": "./intro"
 	},
 	"core": {
 		"title": "Core",

@@ -1,14 +1,48 @@
 {
-    "intro": {
-        "title": "Intro"
-    },
-    "subfield-ai": {
-        "title": "Artificial Intelligence"
-    },
-    "subfield-web": {
-        "title": "Web Development"
-    },
-    "subfield-devops": {
-        "title": "DevOps"
-    }
+	"intro": {
+		"title": "Subfields - Intro"
+	},
+	"---Subfields": {
+		"type": "separator",
+		"title": "Subfields"
+	},
+	"ai": {
+		"title": "Artificial Intelligence"
+	},
+	"web": {
+		"title": "Web Development"
+	},
+	"devops": {
+		"title": "DevOps"
+	},
+	"machine-learning": {
+		"title": "Machine Learning"
+	},
+	"deep-learning": {
+		"title": "Deep Learning"
+	},
+	"iot": {
+		"title": "Internet of Things"
+	},
+	"embedded-systems": {
+		"title": "Embedded Systems"
+	},
+	"datascience": {
+		"title": "Data Science"
+	},
+	"big-data": {
+		"title": "Big Data"
+	},
+	"cloud-computing": {
+		"title": "Cloud Computing"
+	},
+	"robotics": {
+		"title": "Robotics"
+	},
+	"game-dev": {
+		"title": "Game Development"
+	},
+	"security": {
+		"title": "Security"
+	}
 }

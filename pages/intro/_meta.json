@@ -1,17 +1,33 @@
 {
-    "what-is-ac": {
-        "title": "What is AC?"
-    },
-    "faq": {
-        "title": "FAQ"
-    },
-    "faq2": {
-        "title": "FAQ 2"
-    },
-    "rules": {
-        "title": "Rules"
-    },
-    "htj": {
-        "title": "How to join"
-    }
+	"what-is-ac": {
+		"title": "What is AC?"
+	},
+	"faq": {
+		"title": "FAQ"
+	},
+	"faq2": {
+		"title": "FAQ 2"
+	},
+	"rules": {
+		"title": "Rules"
+	},
+	"htj": {
+		"title": "How to join"
+	},
+	"---Other": {
+		"type": "separator",
+		"title": "Other"
+	},
+	"resume-interview": {
+		"title": "Resume & Interview"
+	},
+	"internships-jobs": {
+		"title": "Internships & Jobs"
+	},
+	"oss": {
+		"title": "Open Source Contributions"
+	},
+	"problem-solving": {
+		"title": "Problem Solving"
+	}
 }
