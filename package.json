@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alisaber272/active-courses.git"
+    "url": "git+https://github.com/ali-kehel/active-courses.git"
   },
   "author": "Ali Kehel <ali.kehel.27.2@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alisaber272/active-courses/issues"
+    "url": "https://github.com/ali-kehel/active-courses/issues"
   },
-  "homepage": "https://github.com/alisaber272/active-courses#readme",
+  "homepage": "https://github.com/ali-kehel/active-courses#readme",
   "dependencies": {
     "@giscus/react": "^2.3.0",
     "@vercel/analytics": "^1.0.1",
