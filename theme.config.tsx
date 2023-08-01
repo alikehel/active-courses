@@ -28,7 +28,7 @@ const config: DocsThemeConfig = {
 				<meta property="og:description" content={frontMatter.description || `Active Courses is a discord server for Studying CSE/CS Subjects, The server's purpose is to imitate college-cult-like by studying a subject from same source at same time.`} />
 				{/* <meta httpEquiv="Content-Language" content="en" /> */}
 				{/* <meta name="description" content={frontMatter.description} /> */}
-				<link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
+				<link rel="icon" type="image/x-icon" href="favicon.ico"></link>
 			</>
 		);
 	},
