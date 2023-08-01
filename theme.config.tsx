@@ -33,12 +33,12 @@ const config: DocsThemeConfig = {
 		);
 	},
 	project: {
-		link: 'https://github.com/alisaber272/active-courses',
+		link: 'https://github.com/ali-kehel/active-courses',
 	},
 	chat: {
 		link: 'https://discord.gg/QrfTN2Aukx',
 	},
-	docsRepositoryBase: 'https://github.com/alisaber272/active-courses/tree/main',
+	docsRepositoryBase: 'https://github.com/ali-kehel/active-courses/tree/main',
 	footer: {
 		text: 'Active Courses © 2023',
 	},
@@ -73,7 +73,7 @@ const config: DocsThemeConfig = {
 						</Authors>
 					</div>
 					{props.children}
-					<Giscus id="comments" repo="alisaber272/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="transparent_dark" lang={locale.slice(0, 2)} loading="lazy" />
+					<Giscus id="comments" repo="ali-kehel/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="transparent_dark" lang={locale.slice(0, 2)} loading="lazy" />
 				</>
 			);
 		} else {
@@ -84,7 +84,7 @@ const config: DocsThemeConfig = {
 						{frontMatter.title}
 					</h1>
 					{props.children}
-					<Giscus id="comments" repo="alisaber272/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="transparent_dark" lang={locale.slice(0, 2)} loading="lazy" />
+					<Giscus id="comments" repo="ali-kehel/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="transparent_dark" lang={locale.slice(0, 2)} loading="lazy" />
 					{/* term="Welcome to @giscus/react component!" reactionsEnabled="1" emitMetadata="0" */}
 				</>
 			);
