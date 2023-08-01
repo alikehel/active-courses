@@ -6,9 +6,9 @@
 
 The web app for the Active Courses discord server.
 
-[![License](https://img.shields.io/github/license/alisaber272/active-courses)](https://github.com/alisaber272/active-courses/blob/master/LICENSE)
-[![Issues](https://img.shields.io/github/issues/alisaber272/active-courses)](https://github.com/alisaber272/active-courses/issues)
-[![Stars](https://img.shields.io/github/stars/alisaber272/active-courses)](https://github.com/alisaber272/active-courses)
+[![License](https://img.shields.io/github/license/ali-kehel/active-courses)](https://github.com/ali-kehel/active-courses/blob/master/LICENSE)
+[![Issues](https://img.shields.io/github/issues/ali-kehel/active-courses)](https://github.com/ali-kehel/active-courses/issues)
+[![Stars](https://img.shields.io/github/stars/ali-kehel/active-courses)](https://github.com/ali-kehel/active-courses)
 
 **Active Course** is a vibrant and inclusive **Arabic** Discord server dedicated to fostering a thriving community for CS enthusiasts mainly in the **Egyptian region**. Whether you're a beginner or an expert, we've got something valuable to offer to everyone. Join us to dive into the exciting world of Computer Science, study together, share knowledge, and engage in meaningful discussions with like-minded individuals.
 
@@ -33,13 +33,13 @@ Then, run `pnpm dev` to start the development server and visit localhost:3000.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=alisaber272/active-courses&type=Timeline)](https://star-history.com/#alisaber272/active-courses&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=ali-kehel/active-courses&type=Timeline)](https://star-history.com/#ali-kehel/active-courses&Timeline)
 
 ## ✨ Contributors
 
 <!--  support by https://contrib.rocks -->
-<a href="https://github.com/alisaber272/active-courses/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=alisaber272/active-courses"/>
+<a href="https://github.com/ali-kehel/active-courses/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ali-kehel/active-courses"/>
 </a>
 
 ## License
