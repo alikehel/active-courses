@@ -2,17 +2,17 @@
 	"what-is-ac": {
 		"title": "What is AC?"
 	},
-	"faq": {
-		"title": "FAQ"
-	},
-	"faq2": {
-		"title": "FAQ 2"
-	},
 	"rules": {
 		"title": "Rules"
 	},
 	"htj": {
 		"title": "How to join"
+	},
+	"faq": {
+		"title": "FAQ"
+	},
+	"how-to-pick-good-courses": {
+		"title": "How to pick good courses"
 	},
 	"---Other": {
 		"type": "separator",
@@ -29,5 +29,14 @@
 	},
 	"problem-solving": {
 		"title": "Problem Solving"
+	},
+	"people-to-follow": {
+		"title": "People To Follow"
+	},
+	"egyption-market": {
+		"title": "Egyptian Market"
+	},
+	"misc": {
+		"title": "Miscellaneous"
 	}
 }

@@ -1,6 +1,6 @@
 {
-	"intro": {
-		"title": "Core - Intro"
+	"general": {
+		"title": "Core - General"
 	},
 	"---Core": {
 		"type": "separator",
@@ -12,19 +12,19 @@
 	"programming": {
 		"title": "Programming"
 	},
-	"oo": {
+	"object-oriented": {
 		"title": "Object Oriented"
 	},
-	"dsa": {
+	"datastructures-and-algorithms": {
 		"title": "Data Structures & Algorithms"
 	},
 	"design-patterns": {
 		"title": "Design Patterns"
 	},
-	"db": {
+	"databases": {
 		"title": "Databases"
 	},
-	"os": {
+	"operating-systems": {
 		"title": "Operating Systems"
 	},
 	"networks": {
