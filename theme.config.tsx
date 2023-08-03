@@ -28,7 +28,14 @@ const config: DocsThemeConfig = {
 				<meta property="og:description" content={frontMatter.description || `Active Courses is a discord server for Studying CSE/CS Subjects, The server's purpose is to imitate college-cult-like by studying a subject from same source at same time.`} />
 				{/* <meta httpEquiv="Content-Language" content="en" /> */}
 				{/* <meta name="description" content={frontMatter.description} /> */}
-				<link rel="icon" type="image/png" href="favicon-16x16.png"></link>
+				{/* <link rel="icon" type="image/png" href="favicon-16x16.png"></link> */}
+				{/* Favicons, meta */}
+				<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+				<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+				<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+				<link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
+				<link rel="manifest" href="/favicon/site.webmanifest" />
+				{/* <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#000000" /> */}
 			</>
 		);
 	},
@@ -40,7 +47,17 @@ const config: DocsThemeConfig = {
 	},
 	docsRepositoryBase: 'https://github.com/alikehel/active-courses/tree/main',
 	footer: {
-		text: 'Active Courses © 2023',
+		text: (
+			<div>
+				<p>Active Courses © {new Date().getFullYear()}</p>
+				<p>
+					Made With 🤍 By{' '}
+					<a href="https://www.linkedin.com/in/alikehel/" target="_blank">
+						Ali Kehel
+					</a>
+				</p>
+			</div>
+		),
 	},
 	// i18n: [
 	// 	{ locale: 'en-US', text: 'English' },
@@ -56,6 +73,7 @@ const config: DocsThemeConfig = {
 	main: (props) => {
 		const { asPath, defaultLocale, locale = 'en' } = useRouter();
 		const { frontMatter } = useConfig();
+		const { route } = useRouter();
 
 		if (asPath === '/' || asPath === '/blog') {
 			return <>{props.children}</>;
@@ -73,7 +91,7 @@ const config: DocsThemeConfig = {
 						</Authors>
 					</div>
 					{props.children}
-					<Giscus id="comments" repo="alikehel/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="transparent_dark" lang={locale.slice(0, 2)} loading="lazy" />
+					<Giscus key={route} id="comments" repo="alikehel/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="transparent_dark" lang={locale.slice(0, 2)} loading="lazy" />
 				</>
 			);
 		} else {
@@ -84,7 +102,7 @@ const config: DocsThemeConfig = {
 						{frontMatter.title}
 					</h1>
 					{props.children}
-					<Giscus id="comments" repo="alikehel/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="transparent_dark" lang={locale.slice(0, 2)} loading="lazy" />
+					<Giscus key={route} id="comments" repo="alikehel/active-courses" repoId="R_kgDOJ-AlAA" category="Giscus" categoryId="DIC_kwDOJ-AlAM4CYHc7" mapping="pathname" reactionsEnabled="1" emitMetadata="0" inputPosition="bottom" theme="transparent_dark" lang={locale.slice(0, 2)} loading="lazy" />
 					{/* term="Welcome to @giscus/react component!" reactionsEnabled="1" emitMetadata="0" */}
 				</>
 			);

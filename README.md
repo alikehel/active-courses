@@ -16,6 +16,8 @@ Join [Active Courses Discord](https://discord.gg/QrfTN2Aukx) now and take your C
 
 Thanks to [OSSU](https://github.com/ossu/computer-science), [CSDIY.wiki](https://csdiy.wiki/en/) and [SWR Docs](https://swr.vercel.app/) for their content and design inspirations.
 
+Special thanks to [Omar Shawky](https://www.linkedin.com/in/omarshawky1/) for creating this amazing discord server.
+
 ## How to Contribute
 
 ### Non-substantive changes

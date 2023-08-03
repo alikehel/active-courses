@@ -10,8 +10,10 @@ html {
     @apply sr-only;
 }
 
+/* prettier-ignore */
 [data-reach-skip-link]:focus {
-    @apply not-sr-only fixed ml-6 top-0 bg-white text-lg px-6 py-2 mt-2 outline-none focus:ring z-50;
+    /* prettier-ignore */
+    @apply not-sr-only fixed ml-6 top-0 bg-white text-lg px-6 py-2 mt-2 outline-none z-50 focus:ring;
 }
 
 .dark .invert-on-dark {
@@ -33,7 +35,7 @@ body {
 }
 
 :is(html[class~="dark"] .dark\:nx-bg-dark) {
-    background: transparent;
+    background: #000;
     --tw-shadow: 0 -0 0 #000;
     /* --tw-shadow: 0 -12px 16px #000; */
 }
@@ -41,6 +43,33 @@ body {
 :is(html[class~="dark"] .dark\:nx-bg-neutral-900) {
     --tw-bg-opacity: 1;
     background-color: rgba(10, 10, 10, var(--tw-bg-opacity));
+}
+
+iframe {
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+
+.nextra-cards {
+    grid-template-columns: repeat(auto-fill, minmax(max(100%, calc((100% - 1rem*2)/var(--rows))), 1fr));
+}
+
+.nextra-steps h3::before {
+    margin-right: -41px;
+}
+
+.nextra-steps {
+    margin-right: 1rem;
+    padding-right: 1.5rem;
+}
+
+.nx-border-l {
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.nx-font-semibold {
+    font-weight: 500;
 }
 
 /* .nx-max-w-\[90rem\] {
