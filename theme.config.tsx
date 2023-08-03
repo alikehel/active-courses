@@ -23,7 +23,7 @@ const config: DocsThemeConfig = {
 		// const url = 'https://active-courses.vercel.app' + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
 		const title = frontMatter.title ? frontMatter.title + ' – Active Courses' : 'Active Courses';
 		const description = frontMatter.description || `Active Courses is a discord server for Studying CSE/CS Subjects, The server's purpose is to imitate college-cult-like by studying a subject from same source at same time.`;
-		const imageURL = '/logo-192x192.png';
+		const imageURL = 'https://i.imgur.com/0AKzk2q.png';
 
 		return (
 			<>
