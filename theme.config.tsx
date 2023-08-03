@@ -15,7 +15,18 @@ const config: DocsThemeConfig = {
 		prev: false,
 		next: false,
 	},
-	useNextSeoProps: () => ({ titleTemplate: '%s – Active Courses' }),
+	useNextSeoProps() {
+		const { asPath } = useRouter();
+		if (asPath !== '/') {
+			return {
+				titleTemplate: '%s | Active Courses',
+			};
+		} else {
+			return {
+				titleTemplate: 'Active Courses | %s',
+			};
+		}
+	},
 	head: () => {
 		const { asPath, defaultLocale, locale = 'en' } = useRouter();
 		const { frontMatter } = useConfig();
@@ -23,7 +34,7 @@ const config: DocsThemeConfig = {
 		// const url = 'https://www.activecourses.tech' + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
 		let title = frontMatter.title ? frontMatter.title + ' | Active Courses' : 'Active Courses';
 		if (asPath === '/') {
-			title = frontMatter.title;
+			title = frontMatter.title ? 'Active Courses | ' + frontMatter.title : 'Active Courses';
 		}
 		const description = frontMatter.description || `Active Courses is a vibrant and inclusive Arabic Discord server dedicated to fostering a thriving community for CS enthusiasts mainly in the Egyptian region. Whether you're a beginner or an expert, we've got something valuable to offer to everyone. Join us to dive into the exciting world of Computer Science, study together, share knowledge, and engage in meaningful discussions with like-minded individuals.`;
 		const imageURL = 'https://i.imgur.com/0AKzk2q.png';
