@@ -22,7 +22,7 @@ const config: DocsThemeConfig = {
 		const url = 'https://active-courses.vercel.app' + asPath;
 		// const url = 'https://active-courses.vercel.app' + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
 		const title = frontMatter.title ? frontMatter.title + ' – Active Courses' : 'Active Courses';
-		const description = frontMatter.description || `Active Courses is a discord server for Studying CSE/CS Subjects, The server's purpose is to imitate college-cult-like by studying a subject from same source at same time.`;
+		const description = frontMatter.description || `Active Courses is a vibrant and inclusive Arabic Discord server dedicated to fostering a thriving community for CS enthusiasts mainly in the Egyptian region. Whether you're a beginner or an expert, we've got something valuable to offer to everyone. Join us to dive into the exciting world of Computer Science, study together, share knowledge, and engage in meaningful discussions with like-minded individuals.`;
 		const imageURL = 'https://i.imgur.com/0AKzk2q.png';
 
 		return (
