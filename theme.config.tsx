@@ -19,16 +19,24 @@ const config: DocsThemeConfig = {
 	head: () => {
 		const { asPath, defaultLocale, locale = 'en' } = useRouter();
 		const { frontMatter } = useConfig();
-		const url = 'https://active-courses.vercel.app' + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
+		const url = 'https://active-courses.vercel.app' + asPath;
+		// const url = 'https://active-courses.vercel.app' + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
+		const title = frontMatter.title ? frontMatter.title + ' – Active Courses' : 'Active Courses';
+		const description = frontMatter.description || `Active Courses is a discord server for Studying CSE/CS Subjects, The server's purpose is to imitate college-cult-like by studying a subject from same source at same time.`;
+		const imageURL = '/logo-192x192.png';
 
 		return (
 			<>
-				<meta property="og:title" content={frontMatter.title ? frontMatter.title + ' – Active Courses' : 'Active Courses Discord Server'} />
+				<meta property="og:title" content={title} />
+				<meta property="og:description" content={description} />
+				<meta property="description" content={description} />
 				<meta property="og:url" content={url} />
-				<meta property="og:description" content={frontMatter.description || `Active Courses is a discord server for Studying CSE/CS Subjects, The server's purpose is to imitate college-cult-like by studying a subject from same source at same time.`} />
+				<meta property="og:image" content={imageURL} />
 				{/* <meta httpEquiv="Content-Language" content="en" /> */}
-				{/* <meta name="description" content={frontMatter.description} /> */}
-				{/* <link rel="icon" type="image/png" href="favicon-16x16.png"></link> */}
+				<meta property="twitter:title" content={title} />
+				<meta property="twitter:description" content={description} />
+				<meta property="twitter:image" content={imageURL} />
+				<meta property="twitter:card" content="summary_large_image" />
 				{/* Favicons, meta */}
 				<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
 				<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
