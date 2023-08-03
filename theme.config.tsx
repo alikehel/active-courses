@@ -19,9 +19,12 @@ const config: DocsThemeConfig = {
 	head: () => {
 		const { asPath, defaultLocale, locale = 'en' } = useRouter();
 		const { frontMatter } = useConfig();
-		const url = 'https://active-courses.vercel.app' + asPath;
-		// const url = 'https://active-courses.vercel.app' + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
-		const title = frontMatter.title ? frontMatter.title + ' – Active Courses' : 'Active Courses';
+		const url = 'https://www.activecourses.tech' + asPath;
+		// const url = 'https://www.activecourses.tech' + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
+		let title = frontMatter.title ? frontMatter.title + ' | Active Courses' : 'Active Courses';
+		if (asPath === '/') {
+			title = frontMatter.title;
+		}
 		const description = frontMatter.description || `Active Courses is a vibrant and inclusive Arabic Discord server dedicated to fostering a thriving community for CS enthusiasts mainly in the Egyptian region. Whether you're a beginner or an expert, we've got something valuable to offer to everyone. Join us to dive into the exciting world of Computer Science, study together, share knowledge, and engage in meaningful discussions with like-minded individuals.`;
 		const imageURL = 'https://i.imgur.com/0AKzk2q.png';
 
@@ -54,6 +57,18 @@ const config: DocsThemeConfig = {
 		link: 'https://discord.gg/QrfTN2Aukx',
 	},
 	docsRepositoryBase: 'https://github.com/alikehel/active-courses/tree/main',
+	banner: {
+		key: 'github-star',
+		text: (
+			<>
+				⭐️ If you like Active Courses, give it a star on {''}
+				<a className="underline" href="https://github.com/alikehel/active-courses" target="_blank">
+					GitHub
+				</a>
+				{''} ⭐️
+			</>
+		),
+	},
 	footer: {
 		text: (
 			<div>
