@@ -37,7 +37,7 @@ const config: DocsThemeConfig = {
 			title = frontMatter.title ? 'Active Courses | ' + frontMatter.title : 'Active Courses';
 		}
 		const description = frontMatter.description || `Active Courses is a vibrant and inclusive Arabic Discord server dedicated to fostering a thriving community for CS enthusiasts mainly in the Egyptian region. Whether you're a beginner or an expert, we've got something valuable to offer to everyone. Join us to dive into the exciting world of Computer Science, study together, share knowledge, and engage in meaningful discussions with like-minded individuals.`;
-		const imageURL = 'https://i.imgur.com/0AKzk2q.png';
+		const imageURL = 'https://i.imgur.com/kREf2Ca.png';
 
 		return (
 			<>
@@ -50,7 +50,7 @@ const config: DocsThemeConfig = {
 				<meta property="twitter:title" content={title} />
 				<meta property="twitter:description" content={description} />
 				<meta property="twitter:image" content={imageURL} />
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta property="twitter:card" content="summary" />
 				{/* Favicons, meta */}
 				<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
 				<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
