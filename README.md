@@ -16,8 +16,6 @@ The web app for the Active Courses discord server.
 
 Join [Active Courses Discord](https://discord.gg/QrfTN2Aukx) now and take your CS studies to new heights: [![Discord](https://img.shields.io/discord/950993900720492574.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/QrfTN2Aukx)
 
-Thanks to [OSSU](https://github.com/ossu/computer-science), [CSDIY.wiki](https://csdiy.wiki/en/) and [SWR Docs](https://swr.vercel.app/) for their content and design inspirations.
-
 Special thanks to [Omar Shawky](https://www.linkedin.com/in/omarshawky1/) for creating this amazing discord server.
 
 ## How to Contribute
