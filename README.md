@@ -1,3 +1,5 @@
+# ℹ️ Moved to [alikehel/activecourses](https://github.com/alikehel/activecourses) ℹ️
+
 <div align="center">
   <img src=./public/logo-192x192.png>
 </div>
