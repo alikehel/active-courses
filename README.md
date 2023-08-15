@@ -8,9 +8,9 @@
 
 The web app for the Active Courses discord server.
 
-[![License](https://img.shields.io/github/license/alikehel/active-courses)](https://github.com/alikehel/active-courses/blob/master/LICENSE)
-[![Issues](https://img.shields.io/github/issues/alikehel/active-courses)](https://github.com/alikehel/active-courses/issues)
-[![Stars](https://img.shields.io/github/stars/alikehel/active-courses)](https://github.com/alikehel/active-courses)
+[![License](https://img.shields.io/github/license/alikehel/activecourses-nextra)](https://github.com/alikehel/activecourses-nextra/blob/master/LICENSE)
+[![Issues](https://img.shields.io/github/issues/alikehel/activecourses-nextra)](https://github.com/alikehel/activecourses-nextra/issues)
+[![Stars](https://img.shields.io/github/stars/alikehel/activecourses-nextra)](https://github.com/alikehel/activecourses-nextra)
 
 **Active Course** is a vibrant and inclusive **Arabic** Discord server dedicated to fostering a thriving community for CS enthusiasts mainly in the **Egyptian region**. Whether you're a beginner or an expert, we've got something valuable to offer to everyone. Join us to dive into the exciting world of Computer Science, study together, share knowledge, and engage in meaningful discussions with like-minded individuals.
 
@@ -35,13 +35,13 @@ Then, run `pnpm dev` to start the development server and visit localhost:3000.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=alikehel/active-courses&type=Timeline)](https://star-history.com/#alikehel/active-courses&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=alikehel/activecourses-nextra&type=Timeline)](https://star-history.com/#alikehel/activecourses-nextra&Timeline)
 
 ## ✨ Contributors
 
 <!--  support by https://contrib.rocks -->
-<a href="https://github.com/alikehel/active-courses/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=alikehel/active-courses"/>
+<a href="https://github.com/alikehel/activecourses-nextra/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=alikehel/activecourses-nextra"/>
 </a>
 
 ## License
